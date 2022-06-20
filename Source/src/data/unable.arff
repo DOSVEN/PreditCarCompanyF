@@ -1,0 +1,37 @@
+@relation car_data-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.instance.Resample-S1-Z70.0-no-replacement-V
+
+@attribute fuel_type {gas,diesel}
+@attribute aspiration {std,turbo}
+@attribute num_of_doors {two,four}
+@attribute body_style {convertible,hatchback,sedan,wagon,hardtop}
+@attribute drive_wheels {rwd,fwd,4wd}
+@attribute engine_location {front,rear}
+@attribute wheel_base numeric
+@attribute length numeric
+@attribute width numeric
+@attribute height numeric
+@attribute curb_weight numeric
+@attribute engine_type {dohc,ohcv,ohc,l,rotor,ohcf,dohcv}
+@attribute num_of_cylinders {four,six,five,three,twelve,two,eight}
+@attribute engine_size numeric
+@attribute fuel_system {mpfi,2bbl,mfi,1bbl,spfi,4bbl,idi,spdi}
+@attribute compression_ratio numeric
+@attribute horsepower numeric
+@attribute peak_rpm numeric
+@attribute city_mpg numeric
+@attribute highway_mpg numeric
+@attribute price numeric
+@attribute class {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+
+@data
+gas,std,four,sedan,4wd,front,99.4,176.6,66.4,54.3,2824,ohc,five,136,mpfi,8,115,5500,18,22,17450,?
+gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53,2094,ohc,four,98,2bbl,9,70,4800,38,47,7738,?
+gas,std,four,sedan,fwd,front,100.4,181.7,66.5,55.1,3095,ohcv,six,181,mpfi,9,152,5200,17,22,13499,?
+gas,std,two,hatchback,fwd,front,94.5,165.7,64,51.4,2221,ohc,four,109,mpfi,8.5,90,5500,24,29,9980,?
+diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3197,l,four,152,idi,21,95,4150,28,33,13200,?
+gas,std,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3071,ohcv,six,181,mpfi,9,160,5200,19,25,17199,?
+gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2811,ohc,four,156,mfi,7,145,5000,19,24,12964,?
+gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2465,ohc,four,110,mpfi,9,101,5800,24,28,12945,?
+gas,std,four,wagon,fwd,front,96.5,157.1,63.9,58.3,2024,ohc,four,92,1bbl,9.2,76,6000,30,34,7295,?
+diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,l,four,152,idi,21,95,4150,28,33,16900,?
+gas,turbo,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3139,ohcv,six,181,mpfi,7.8,200,5200,17,23,19699,?

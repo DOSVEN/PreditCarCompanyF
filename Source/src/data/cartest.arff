@@ -1,0 +1,88 @@
+@relation car_data-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.instance.Resample-S1-Z70.0-no-replacement-V
+
+@attribute fuel_type {gas,diesel}
+@attribute aspiration {std,turbo}
+@attribute num_of_doors {two,four}
+@attribute body_style {convertible,hatchback,sedan,wagon,hardtop}
+@attribute drive_wheels {rwd,fwd,4wd}
+@attribute engine_location {front,rear}
+@attribute wheel_base numeric
+@attribute length numeric
+@attribute width numeric
+@attribute height numeric
+@attribute curb_weight numeric
+@attribute engine_type {dohc,ohcv,ohc,l,rotor,ohcf,dohcv}
+@attribute num_of_cylinders {four,six,five,three,twelve,two,eight}
+@attribute engine_size numeric
+@attribute fuel_system {mpfi,2bbl,mfi,1bbl,spfi,4bbl,idi,spdi}
+@attribute compression_ratio numeric
+@attribute horsepower numeric
+@attribute peak_rpm numeric
+@attribute city_mpg numeric
+@attribute highway_mpg numeric
+@attribute price numeric
+@attribute class {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+
+@data
+gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,9,111,5000,21,27,13495,alfa-romero
+gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,9,111,5000,21,27,16500,alfa-romero
+gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2326,ohc,four,122,mpfi,8.7,92,4200,29,34,8948,toyota
+gas,std,four,sedan,fwd,front,99.8,176.6,66.2,54.3,2337,ohc,four,109,mpfi,10,102,5500,24,30,13950,audi
+gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2912,ohc,four,141,mpfi,9.5,114,5400,23,28,12940,volvo
+diesel,turbo,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2480,ohc,four,110,idi,22.5,73,4500,30,33,10698,toyota
+gas,std,four,sedan,fwd,front,105.8,192.7,71.4,55.7,2844,ohc,five,136,mpfi,8.5,110,5500,19,25,17710,audi
+gas,std,four,hatchback,fwd,front,95.7,158.7,63.6,54.5,2015,ohc,four,92,2bbl,9,62,4800,31,38,6488,toyota
+gas,turbo,four,sedan,fwd,front,105.8,192.7,71.4,55.9,3086,ohc,five,131,mpfi,8.3,140,5500,17,20,23875,audi
+gas,std,four,sedan,fwd,front,97.2,172,65.4,52.5,2145,ohcf,four,108,2bbl,9.5,82,4800,32,37,7126,subaru
+gas,std,two,hatchback,fwd,front,93.7,156.9,63.4,53.7,2050,ohcf,four,97,2bbl,9,69,4900,31,36,5118,subaru
+gas,std,four,sedan,rwd,front,101.2,176.8,64.8,54.3,2395,ohc,four,108,mpfi,8.8,101,5800,23,29,16925,bmw
+gas,std,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3075,l,four,120,mpfi,8.4,95,5000,19,24,15580,peugot
+gas,std,four,sedan,rwd,front,104.3,188.8,67.2,56.2,2935,ohc,four,141,mpfi,9.5,114,5400,24,28,15985,volvo
+gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53,2081,ohc,four,98,2bbl,9,70,4800,30,37,6938,toyota
+gas,std,four,sedan,rwd,front,103.5,189,66.9,55.7,3230,ohc,six,209,mpfi,8,182,5400,16,22,30760,bmw
+gas,std,two,hatchback,fwd,front,95.7,158.7,63.6,54.5,1985,ohc,four,92,2bbl,9,62,4800,35,39,5348,toyota
+gas,std,four,hatchback,fwd,front,95.7,166.3,64.4,52.8,2109,ohc,four,98,2bbl,9,70,4800,30,37,7198,toyota
+gas,std,two,hatchback,fwd,front,88.4,141.1,60.3,53.2,1488,l,three,61,2bbl,9.5,48,5100,47,53,5151,chevrolet
+gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1938,ohc,four,97,2bbl,9.4,69,5200,31,37,6849,nissan
+gas,turbo,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3062,ohc,four,141,mpfi,9.5,114,5400,19,25,22625,volvo
+diesel,std,four,sedan,fwd,front,95.7,166.3,64.4,53,2275,ohc,four,110,idi,22.5,56,4500,34,36,7898,toyota
+gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52,2679,ohc,four,146,mpfi,9.3,116,4800,24,30,11199,toyota
+diesel,turbo,four,sedan,rwd,front,110,190.9,70.3,56.5,3515,ohc,five,183,idi,21.5,123,4350,22,25,25552,mercedes-benz
+gas,std,four,wagon,rwd,front,104.3,188.8,67.2,57.5,3034,ohc,four,141,mpfi,9.5,114,5400,23,28,13415,volvo
+gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2365,ohc,four,122,2bbl,8.5,88,5000,25,32,6989,mitsubishi
+gas,std,four,sedan,fwd,front,93.7,157.3,63.8,50.6,1989,ohc,four,90,2bbl,9.4,68,5500,31,38,7609,dodge
+gas,std,two,sedan,fwd,front,94.5,165.3,63.8,54.5,1951,ohc,four,97,2bbl,9.4,69,5200,31,37,7299,nissan
+gas,std,four,sedan,fwd,front,96.3,172.4,65.4,51.6,2403,ohc,four,110,spdi,7.5,116,5500,23,30,9279,mitsubishi
+gas,turbo,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2847,dohc,four,121,mpfi,9,160,5500,19,26,18620,saab
+gas,std,four,sedan,fwd,front,102.4,175.6,66.5,54.9,2414,ohc,four,122,mpfi,8.7,92,4200,27,32,10898,toyota
+gas,std,two,hatchback,fwd,front,86.6,144.6,63.9,50.8,1819,ohc,four,92,1bbl,9.2,76,6000,31,38,6855,honda
+gas,std,two,hatchback,fwd,front,93.7,157.9,63.6,53.7,2120,ohcf,four,108,2bbl,8.7,73,4400,26,31,7053,subaru
+gas,std,four,hatchback,fwd,front,98.8,177.8,66.5,55.5,2425,ohc,four,122,2bbl,8.6,84,4800,26,32,11245,mazda
+gas,std,two,hardtop,rwd,front,98.4,176.2,65.6,52,2536,ohc,four,146,mpfi,9.3,116,4800,24,30,9639,toyota
+gas,turbo,two,hatchback,fwd,front,99.1,186.6,66.5,56.1,2808,dohc,four,121,mpfi,9,160,5500,19,26,18150,saab
+gas,std,four,sedan,rwd,front,109.1,188.8,68.9,55.5,3012,ohcv,six,173,mpfi,8.8,134,5500,18,23,21485,volvo
+gas,std,four,wagon,rwd,front,114.2,198.9,68.4,56.7,3285,l,four,120,mpfi,8.4,95,5000,19,24,16695,peugot
+diesel,std,four,sedan,rwd,front,104.9,175,66.1,54.4,2700,ohc,four,134,idi,22,72,4200,31,39,18344,mazda
+gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2304,ohc,four,110,1bbl,9,86,5800,27,33,8845,honda
+gas,std,four,sedan,fwd,front,96.5,175.4,62.5,54.1,2372,ohc,four,110,1bbl,9,86,5800,27,33,10295,honda
+gas,std,four,wagon,4wd,front,95.7,169.7,63.6,59.1,3110,ohc,four,92,2bbl,9,62,4800,27,32,8778,toyota
+gas,std,four,sedan,fwd,front,99.1,186.6,66.5,56.1,2758,ohc,four,121,mpfi,9.3,110,5250,21,28,15510,saab
+gas,std,two,hatchback,fwd,front,94.5,165.6,63.8,53.3,2028,ohc,four,97,2bbl,9.4,69,5200,31,37,7799,nissan
+gas,std,two,hardtop,rwd,rear,89.5,168.9,65,51.6,2756,ohcf,six,194,mpfi,9.5,207,5900,17,25,32528,porsche
+gas,std,four,sedan,fwd,front,94.5,155.9,63.6,52,1909,ohc,four,90,2bbl,9.6,70,5400,38,43,13207.129353,isuzu
+gas,std,four,sedan,rwd,front,104.9,175,66.1,54.4,2670,ohc,four,140,mpfi,8,120,5000,19,27,18280,mazda
+gas,std,four,sedan,fwd,front,94.5,165.3,63.8,54.5,1971,ohc,four,97,2bbl,9.4,69,5200,31,37,7499,nissan
+gas,std,four,sedan,fwd,front,100.4,184.6,66.5,55.1,3060,ohcv,six,181,mpfi,9,152,5200,19,25,13499,nissan
+gas,turbo,four,sedan,rwd,front,108,186.7,68.3,56,3130,l,four,134,mpfi,7,142,5600,18,24,18150,peugot
+diesel,turbo,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2319,ohc,four,97,idi,23,68,4500,37,42,9495,volkswagen
+diesel,turbo,four,sedan,fwd,front,100.4,180.2,66.9,55.1,2579,ohc,four,97,idi,23,68,4500,33,38,13845,volkswagen
+gas,std,two,hatchback,fwd,front,93.1,159.1,64.2,54.1,1905,ohc,four,91,2bbl,9,68,5000,31,38,6795,mazda
+gas,std,two,hardtop,rwd,front,112,199.2,72,55.4,3715,ohcv,eight,304,mpfi,8,184,4500,14,16,45400,mercedes-benz
+gas,std,four,sedan,fwd,front,93.1,166.8,64.2,54.1,1950,ohc,four,91,2bbl,9,68,5000,31,38,7395,mazda
+gas,std,four,hatchback,fwd,front,102.4,175.6,66.5,53.9,2414,ohc,four,122,mpfi,8.7,92,4200,27,32,9988,toyota
+diesel,turbo,two,hardtop,rwd,front,106.7,187.5,70.3,54.9,3495,ohc,five,183,idi,21.5,123,4350,22,25,28176,mercedes-benz
+gas,std,two,hatchback,rwd,front,95.3,169,65.7,49.6,2385,rotor,two,70,4bbl,9.4,101,6000,17,23,13645,mazda
+gas,std,two,hatchback,rwd,front,95.3,169,65.7,49.6,2500,rotor,two,80,mpfi,9.4,135,6000,16,23,15645,mazda
+gas,std,two,hatchback,fwd,front,98.8,177.8,66.5,53.7,2385,ohc,four,122,2bbl,8.6,84,4800,26,32,8845,mazda
+gas,std,two,convertible,rwd,front,98.4,176.2,65.6,53,2975,ohc,four,146,mpfi,9.3,116,4800,24,30,17669,toyota
+diesel,std,four,sedan,fwd,front,97.3,171.7,65.5,55.7,2264,ohc,four,97,idi,23,52,4800,37,46,7995,volkswagen

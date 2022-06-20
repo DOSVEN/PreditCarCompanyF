@@ -1,0 +1,12 @@
+fuel_type,aspiration,num_of_doors,body_style,drive_wheels,engine_location,wheel_base,length,width,height,curb_weight,engine_type,num_of_cylinders,engine_size,fuel_system,compression_ratio,horsepower,peak_rpm,city_mpg,highway_mpg,price,class
+gas,std,four,sedan,4wd,front,99.4,176.6,66.4,54.3,2824,ohc,five,136,mpfi,8,115,5500,18,22,17450,audi
+gas,std,four,sedan,fwd,front,95.7,166.3,64.4,53,2094,ohc,four,98,2bbl,9,70,4800,38,47,7738,mazda
+gas,std,four,sedan,fwd,front,100.4,181.7,66.5,55.1,3095,ohcv,six,181,mpfi,9,152,5200,17,22,13499,nissan
+gas,std,two,hatchback,fwd,front,94.5,165.7,64,51.4,2221,ohc,four,109,mpfi,8.5,90,5500,24,29,9980,saab
+diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3197,l,four,152,idi,21,95,4150,28,33,13200,peugot
+gas,std,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3071,ohcv,six,181,mpfi,9,160,5200,19,25,17199,alfa-romero
+gas,turbo,two,hatchback,fwd,front,95.9,173.2,66.3,50.2,2811,ohc,four,156,mfi,7,145,5000,19,24,12964,mitsubishi
+gas,std,four,sedan,fwd,front,96.5,175.4,65.2,54.1,2465,ohc,four,110,mpfi,9,101,5800,24,28,12945,volkswagen
+gas,std,four,wagon,fwd,front,96.5,157.1,63.9,58.3,2024,ohc,four,92,1bbl,9.2,76,6000,30,34,7295,honda
+diesel,turbo,four,sedan,rwd,front,107.9,186.7,68.4,56.7,3252,l,four,152,idi,21,95,4150,28,33,16900,peugot
+gas,turbo,two,hatchback,rwd,front,91.3,170.7,67.9,49.7,3139,ohcv,six,181,mpfi,7.8,200,5200,17,23,19699,nissan
